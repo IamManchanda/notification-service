@@ -4,6 +4,10 @@
   "description": "Codingly template for Serverless Framework projects",
   "author": "Ariel Weinberger <ariel@codingly.io>",
   "license": "MIT",
+  "scripts": {
+    "deploy:dev": "sls deploy -v --stage dev",
+    "stack:remove": "sls remove -v"
+  },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
